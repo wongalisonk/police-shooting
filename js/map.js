@@ -45,9 +45,6 @@ var customBuild = function(json, map) {
 	var indian = new L.LayerGroup();
 	var pacific = new L.LayerGroup();
 
-	//var racesArray = ["Unknown", "White", "Black or African American", "Asian", "Amercian Indian or Alaskan Native", 
-	//					"Native Hawaiian or Other Pacific Islander"];
-
 	for (var key in json) {
 		if (json.hasOwnProperty(key)) {
 			if (json[key]["Hit or Killed?"] == "Killed") {
