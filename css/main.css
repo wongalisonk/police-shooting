@@ -1,4 +1,40 @@
-/* You'll probably want to add some styles here */
+body {
+	background-color: black;
+	font-family: Helvetica;
+	padding-bottom: 5em;
+}
+
+h1 {
+	color: lightgrey;
+	float: left;
+	font-weight: 700;
+	font-size: 50px;
+	margin-left: 1em;
+	margin-right: 0.5em;
+}
+
+h2 {
+	color: lightgrey;
+	text-align: center;
+	font-size: 20px;
+}
+
+p {
+	color: lightgrey;
+	margin-top: 0.5em;
+	padding-left: 5em;
+	padding-right: 5em;
+	padding-bottom: 1em;
+	font-size: 16px;
+	font-style: italic;
+}
+
+.table {
+	color: lightgrey;
+	text-align: center;
+	font-family: Helvetica;
+}
+
 #container {
 	height:800px;
 }
